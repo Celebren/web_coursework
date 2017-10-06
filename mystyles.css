@@ -29,7 +29,7 @@ a.titleEffect {
     padding-top: 10px;    
 }
     /* Remove list' bullets  */
-ul {
+div.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0 10% 10px 10%;
@@ -37,7 +37,7 @@ ul {
     border-bottom: 10px solid #DB1616;
 }
     /* make list elements appear next to eachother */
-li {
+div.menu ul li {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
@@ -59,7 +59,7 @@ li {
     padding: 5px 10px 0px 10px;
 }
     /* change appearance of list items on mouse over */
-li a:hover {
+div.menu ul li a:hover {
     color: #000000;
     background-color: #FFFFFF;
     
@@ -85,15 +85,18 @@ li a:hover {
 
 /* ---------------------------------------------------------------------------- */
 /* 3.1. CSS for the store's main page */
-.ovenPic {
-    float:left;
-    border: 1px solid black;
-    
+.frame {
+    padding-top: 40px;
 }
 
-.storeDescription{    
-    border: 1px solid black;
-    
+.ovenPic {    
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.storeDescription{
+    float: right;
+    margin-right: 10%;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -125,18 +128,19 @@ address {
 /* 5. CSS for register and signin forms*/
 .forms {    
     margin: 0 10% 0 10%;
-    font-size: 14px;
-    display: flex;
+    font-size: 14px;    
 }
 
 .registration {    
-    float: left;    
-    padding: 25px 100px 50px 50px; 
+    float: left;  
+    padding: 25px 0px 50px 0px;
+    margin-left: 10% 
 }
 
 .login {    
-    float: left;    
-    padding: 25px 100px 50px 50px; 
+    float: right;    
+    padding: 25px 0px 10px 50px;
+    margin-right: 20%; 
 }
 
 input[type=text], input[type=password] {
