@@ -97,6 +97,7 @@ div.menu ul li a:hover {
 .storeDescription{
     float: right;
     margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -125,7 +126,7 @@ address {
 }
 
 /* ---------------------------------------------------------------------------- */
-/* 5. CSS for register and signin forms*/
+/* 5. CSS for register and log-in forms*/
 .forms {    
     margin: 0 10% 0 10%;
     font-size: 14px;    
@@ -190,12 +191,11 @@ select {
     float:left;
 }
     /* Fix to make checkbox text allign correctly */
-    /* See references for code source */
 input[type=checkbox] {
     position: relative;
     vertical-align: middle;
     bottom: 1px;    
-} 
+} /* (Käpp, 2013) */
 
 .basket {
     background-color:#E7EB22;
@@ -216,6 +216,11 @@ label {
     text-align: right;
     padding-right: 5%;
 }
+
+.indent {
+    margin-left: 20px;
+}
+
 /* clear floats with <div class="floatclear"> */
 .floatclear {
     clear: both;

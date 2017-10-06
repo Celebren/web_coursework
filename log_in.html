@@ -10,7 +10,7 @@
 
         <!-- Tile banner -->
         <div class="title">
-            <a href="main.html" class="nodecor titleEffect"><h1>This is Baker's Pizza</h1></a>
+            <a href="home.html" class="nodecor titleEffect"><h1>This is Baker's Pizza</h1></a>
         </div>
         
         <!-- Menu bar -->
@@ -21,7 +21,7 @@
                 <li><a href="wip.html" class="nodecor menuLinks">Desserts</a></li>
                 <li><a href="wip.html" class="nodecor menuLinks">Drinks</a></li>
                 <li><a href="wip.html" class="nodecor special">Cart</a></li>
-                <li><a href="log_in.html" class="nodecor menuLinks2">Sign-in/Register</a></li>                                
+                <li><a href="log_in.html" class="nodecor menuLinks2">Log-in/Register</a></li>                                
             </ul>
         </div>
 
@@ -37,7 +37,7 @@
 
                     <div class="registration">
                         <p><b>New customer registration</b></p>
-                        <form action="/action_page.php">
+                        <form action="/action_page.php" class="indent">
                             Name:<br>
                             <input type="text" name="name" value="">
                             <br>
@@ -56,23 +56,26 @@
                             Post Code: <br>
                             <input type="text" name="postcode" value="">
                             <br>
+                            Contact Telephone Number: <br>
+                            <input type="text" name="phone" value="">
+                            <br>
                             Password: <br>
                             <input type="password" name="password" value="">
                             <br><br>
-                            <input type="submit" value="Register">
+                            <input type="submit" value="Register" class="indent">
                         </form> 
                     </div>
 
                     <div class="login">
                         <p><b>Existing customer log-in</b></p>
-                        <form action="/action_page.php">
+                        <form action="/action_page.php" class="indent">
                             E-mail:<br>
                             <input type="text" name="email" value="">
                             <br>
                             Password:<br>
                             <input type="password" name="password" value="">
                             <br><br>
-                            <input type="submit" value="Log-in">
+                            <input type="submit" value="Log-in" class="indent">
                         </form> 
                     </div>
                         
@@ -82,13 +85,17 @@
                 </div> 
             </div>
 
+            <!-- Page footer with company information -->
             <div class="bottom">
                 <address>
-                    Where to find us: <br><br>
-                    Baker's Pizza<br>
-                    1 Address Street<br>
-                    AB12 3CD<br>
-                    Edinburgh
+                    <h4>Where to find us:</h4>
+                    <div class="indent">
+                        Baker's Pizza<br>
+                        1 Address Street<br>
+                        AB12 3CD<br>
+                        Edinburgh<br>
+                        tel: 1234 54789
+                    </div>
                 </address> 
                 <p class="copyright">&copy; 2017 Rena Silver, matric. number: 40321603</p>
             </div>
