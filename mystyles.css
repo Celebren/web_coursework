@@ -35,11 +35,12 @@ div.menu ul {
     padding: 0 10% 10px 10%;
     background: green;
     border-bottom: 10px solid #DB1616;
+	height: 22px;
 }
     /* make list elements appear next to eachother */
 div.menu ul li {
-    display: inline;
     padding: 0px 10px 0px 10px;
+	border: 0px solid black;
 }
     /* remove links decorations*/
 .nodecor {
@@ -55,8 +56,8 @@ div.menu ul li {
     /* make last list items float right */
 .menuLinks2 {
     float: right;
-    height:22px;
-    padding: 5px 10px 0px 10px;
+    height: 22px;
+    padding: 5px 10px 0px 0px;
 }
     /* change appearance of list items on mouse over */
 div.menu ul li a:hover {
